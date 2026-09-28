@@ -7,7 +7,7 @@ st.title("📊 Financial RAG Chatbot")
 st.write("Upload your financial PDF report and ask questions directly from it.")
 
 # FastAPI backend URL
-API_URL = "http://127.0.0.1:8000"
+API_URL = "https://financial-rag-backend-dnnf.onrender.com"
 
 # Sidebar for PDF Upload
 st.sidebar.header("Upload Financial PDF")
